@@ -9,12 +9,15 @@ public class SudokuGenerator{
     int[] numbers = new int[10];
     int[] values = new int[9];
     for (int i = 0; i < values.length; i++){
-      int num = (int)(Math.random() * 9 + 1);
-      while (numbers[num] != 0){
-        num = (int)(Math.random() * 9 + 1);
+      boolean unique = false;
+      while (!unique){
+        int num = (int)(Math.random() * 9 + 1);
+        if (numbers[num] == 0){
+          numbers[num]++;
+          values[i] = num;
+          unique = true;
+        }
       }
-      numbers[num]++;
-      values[i] = num;
     }
     int count = 0;
     for (int i = 0; i < result.length; i++){
