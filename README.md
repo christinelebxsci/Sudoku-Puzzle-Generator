@@ -1,6 +1,8 @@
 # Sudoku-Puzzle-Generator
 Project: Sudoku Puzzle Generator
+
 Christine Le
+
 This project generates a board of 9 solved Sudoku puzzles.
 
 How to run the program
