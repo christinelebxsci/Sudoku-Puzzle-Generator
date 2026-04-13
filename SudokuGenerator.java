@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class SudokuGenerator{
     public static String[] rows = new String[9];
     public static int[][] board = new int[9][9];
