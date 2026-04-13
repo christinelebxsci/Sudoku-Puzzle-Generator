@@ -12,7 +12,7 @@ How to run the program:
 4. Once it is installed, go to the Run and Debug icon, and open the file SudokuGenerator.java to be run. Hit "Run and Debug."
 6. In the bottom right corner, a prompt will ask to switch the Java language server to Standard mode. Click "Yes."
 7. In the terminal, the solved Sudoku puzzle will appear.
-8. Hit "Run and Debug" as many times as desired to keep generating more Sudoku puzzles. 
+8. Run as many times as desired to keep generating more Sudoku puzzles. 
 
 Methodology summary:
 
