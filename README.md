@@ -1,7 +1,7 @@
 # Sudoku-Puzzle-Generator
-Project: Sudoku Puzzle Generator
+Project title: Sudoku Puzzle Generator
 
-Christine Le
+Student name: Christine Le
 
 Short description: This project generates a board of a solved Sudoku puzzle with 9 boxes.
 
