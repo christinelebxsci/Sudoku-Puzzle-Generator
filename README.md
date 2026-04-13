@@ -8,7 +8,7 @@ Short description: This project generates a board of a solved Sudoku puzzle with
 How to run the program:
 1. Create a codespace.
 2. From the three lines icon, go to Terminal and create a new terminal.
-3. In the bottom right corner, a prompt will ask to install "Extension Pack for Java." Click "Install."
+3. Install "Extension Pack for Java" from the Extensions icon.
 4. Once it is installed, go to the Run and Debug icon, and open the file SudokuGenerator.java to be run. Hit "Run and Debug."
 6. In the bottom right corner, a prompt will ask to switch the Java language server to Standard mode. Click "Yes."
 7. In the terminal, the solved Sudoku puzzle will appear.
