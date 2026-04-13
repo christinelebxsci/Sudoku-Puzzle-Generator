@@ -39,13 +39,13 @@ public class SudokuGenerator{
                     return false;
                 }
                 
-                // If the newest row is not the start of a block (0, 3, 6),
-                // and the current row to compare against is part of the same block
+                // If the newest row is not the start of a box (0, 3, 6),
+                // and the current row to compare against is part of the same box
                 if (pos%3 != 0 && j >= pos - pos%3){
-                    int blockStart = (i/3) * 3;
-                    int blockNext = blockStart + 3;
-                    // If a number appears more than once in a singular block
-                    if (blockStart <= rows[j].indexOf(row.charAt(i)) && rows[j].lastIndexOf(row.charAt(i)) < blockNext){
+                    int boxStart = (i/3) * 3;
+                    int boxNext = boxStart + 3;
+                    // If a number appears more than once in a singular box
+                    if (boxStart <= rows[j].indexOf(row.charAt(i)) && rows[j].lastIndexOf(row.charAt(i)) < boxNext){
                         return false;
                     }
                 }
